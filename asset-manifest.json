@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FCC-quoteGen/static/css/main.21cbf02d.css",
+    "main.js": "/FCC-quoteGen/static/js/main.79bf47c3.js",
+    "static/js/787.08f63c06.chunk.js": "/FCC-quoteGen/static/js/787.08f63c06.chunk.js",
+    "index.html": "/FCC-quoteGen/index.html",
+    "main.21cbf02d.css.map": "/FCC-quoteGen/static/css/main.21cbf02d.css.map",
+    "main.79bf47c3.js.map": "/FCC-quoteGen/static/js/main.79bf47c3.js.map",
+    "787.08f63c06.chunk.js.map": "/FCC-quoteGen/static/js/787.08f63c06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21cbf02d.css",
+    "static/js/main.79bf47c3.js"
+  ]
+}
