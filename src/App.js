@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import COLORS_ARRAY from './colorsArray';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import BeatLoader from "react-spinners/BeatLoader";
 
 
@@ -44,7 +46,7 @@ function App() {
         <div className="App">
             <header className="App-header" style={backgroundStyle}>                
                     <div id="quote-box" style={{color:accentColor}}>
-                        <p id="text">{quote}</p>
+                        <p id="text"><FontAwesomeIcon icon={faQuoteLeft}/> {quote}<FontAwesomeIcon icon={faQuoteRight}/></p>
                         <p id="author">- {author}</p>   
                         <div className="buttons">
                             <a id="tweet-quote" style={backgroundStyle} 
